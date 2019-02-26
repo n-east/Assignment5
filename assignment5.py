@@ -7,5 +7,7 @@ if int(first) < 0 or int(second) < 0:
 else:
     print("The sum of the numbers your entered is: ", (int(first) + int(second)))
     print("The result of subtracting", second, "from", first, "is", (int(first) - int(second)))
+    print("The result of multiplying the numbers you entered is ", (int(first) * int(second)))
+    print("The result of dividing", first, "by", second, "is", (int(first)/int(second)))
                  
 
